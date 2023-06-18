@@ -1,4 +1,4 @@
-FROM docker.io/atmoz/sftp
+FROM atmoz/sftp
 
 ARG SFTP_USER=user
 ARG SFTP_PASS=pass
