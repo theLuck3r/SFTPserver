@@ -1,5 +1,7 @@
 FROM atmoz/sftp
 
+RUN apt-get update && apt-get install -y rsync
+
 ARG SFTP_USER=user
 ARG SFTP_PASS=pass
 
